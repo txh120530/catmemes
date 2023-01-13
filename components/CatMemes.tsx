@@ -17,7 +17,6 @@ const CatMemes = () => {
         if (!canvas) return;
 
         if(image && canvas) {
-            console.log(canvas);
             const ctx = canvas.current.getContext("2d")
             ctx.fillStyle = "black"
             ctx.fillRect(0, 0, 512, 512)
