@@ -2,8 +2,8 @@ import React, { useState,useEffect, useRef } from 'react';
 
 
 const CatMemes = () => {
-    const [image, setImage] = useState(null)
-    const canvas = useRef(null)
+    const [image, setImage] = useState<any | null>(null)
+    const canvas = useRef<any | null>(null)
     const [topText, setTopText] = useState('')
     const [bottomText, setBottomText] = useState('')
 
